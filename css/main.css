@@ -154,9 +154,15 @@ body {
   max-width: 1080px;
   margin: auto;
 }
-h1 {
+header {
+  width: 100%;
+  text-align: center;
+  padding: 3rem;
+}
+header h1 {
   font-family: ethnocentric, sans-serif;
   font-size: 8rem;
+  text-shadow: 0.5rem 0.5rem #169f48;
 }
 p {
   font-family: semplicitapro, sans-serif;
