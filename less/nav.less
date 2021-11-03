@@ -1,4 +1,27 @@
-p {
-    font-family: @bodyFont;
+#tiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    .tile{
+        max-width: 300px;
+        padding-top: 2rem;
+        margin: 2rem;
+        .img{
+            text-align: center;
+            img{
+                border-radius: 3rem;
+            }
+            img:hover{
+                transform: scale(1.1); 
+            }
+            p {
+                font-family: @bodyFont;
+                font-weight: 600;
+                font-size: 2.5rem;
+                padding-top: 2rem;
+                color: @white;
+            }
+        }
+    }
 }
-
