@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="18080" appversion="6.1.13" id="node1">
+  <input overlap="1" width="3299" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingroll="0" height="3299" levelbias="0.400">
+    <level predecode="0" width="3299" preload="0" height="3299"/>
+    <level predecode="0" width="1649" preload="0" height="1649"/>
+    <level predecode="0" width="824" preload="0" height="824"/>
+    <level predecode="1" width="412" preload="1" height="412"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start projection="4" fov="70" tilt="0" pan="0"/>
+    <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+    <min fovpixel="2" tilt="-90" pan="0"/>
+    <max scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270" tilt="90" pan="360"/>
+  </view>
+  <userdata nodeid="node1" datetime="" copyright="" title="" author="" tags="Waterfall" source="" description="" customnodeid="" longitude="" comment="" info="" latitude="" heading="0"/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" background="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" border="1" borderradius="1" height="20" textcolor="0x000000"/>
+    <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+  </hotspots>
+  <media/>
+  <transition enabled="1" softedge="0" zoomafteroutfov="20" zoomout="0" blendcolor="0x000000" blendtime="1" zoomafterinfov="90" zoomin="0" type="crossdissolve" zoomspeed="2" zoomfov="20" zoomoutpause="1"/>
+  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+  <control speedwheel="1" invertcontrol="1" rubberband="0" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" lockedkeyboardzoom="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertwheel="0" contextprojections="0" lockedmouse="0" contextvr="1"/>
+</panorama>
