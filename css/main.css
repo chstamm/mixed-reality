@@ -172,6 +172,7 @@ header h1 {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 800px;
+  padding-bottom: 4rem;
 }
 #tiles .tile {
   max-width: 300px;
